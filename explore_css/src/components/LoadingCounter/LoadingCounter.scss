@@ -1,0 +1,26 @@
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ddd;
+    width: 200px;
+    align-items: center;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 10px;
+    #hr {
+        height: 10px;
+        background-color: #660202;
+    }
+    .btn-conatiner {
+        button {
+            cursor: pointer;
+            width: 100px;
+            height: 30px;
+            color: #fff;
+            font-weight: bold;
+            background-color: rgb(43, 53, 245);
+            border: 1.2px solid #660202;
+            border-radius: 10px;
+        }
+    }
+}

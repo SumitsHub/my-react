@@ -1,0 +1,50 @@
+.main-container {
+    width: 100%;
+    height: 60vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-container {
+    width: 300px;
+    background: #fff;
+    height: 200px;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 10px;
+    h4 {
+        margin: 0 auto;
+    }
+    .author-name {
+        font-family: "Courier New", Courier, monospace;
+    }
+    .author-name::before {
+        content: '-';
+    }
+    .lyrics {
+        line-height: 21px;
+        height: calc(3 * 21px);
+        overflow: hidden;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .98rem;;
+    }
+
+    .lyrics::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 21px;
+        width: 75%;
+
+        background: linear-gradient(90deg, transparent, white);
+    }
+
+    .view-more {
+        color: blue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
